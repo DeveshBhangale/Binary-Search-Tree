@@ -6,9 +6,13 @@ public class Runner {
 		myBinaryTree.add(56);
 		myBinaryTree.add(30);
 		myBinaryTree.add(70);
+		myBinaryTree.add(55);
+		
 		
 		int size = myBinaryTree.getSize();
 		System.out.println(size);
 		myBinaryTree.print();
+		myBinaryTree.searchNodeInTree(12);
+		myBinaryTree.searchNodeInTree(56);
 	}
 }
