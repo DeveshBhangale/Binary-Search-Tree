@@ -9,5 +9,6 @@ public class Runner {
 		
 		int size = myBinaryTree.getSize();
 		System.out.println(size);
+		myBinaryTree.print();
 	}
 }
